@@ -36,13 +36,13 @@ There are three ways to use **GitProfile**. Use any.
 
 These instructions will get you a copy of the project and deploy your portfolio online using GitHub Pages!
 
-- **Fork repo:** Click [here](https://github.com/arifszn/gitprofile/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
+- **Fork repo:** Click [here](https://github.com/joynalbokhsho/joynalbokhsho.github.io/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
 - **Rename repo:**
   - If you want to host your portfolio at `https://<USERNAME>.github.io`, rename your forked repository to `username.github.io` in GitHub, where `username` is your GitHub username (or organization name).
   - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO_NAME>` (e.g. `portfolio`) in GitHub.
 - **Enable workflows:** Go to your repo's **Actions** tab and enable workflows.
 
-  ![Workflows](https://github.com/arifszn/gitprofile/assets/45073703/7e82f7d4-900c-4cb9-83f9-bcaa1ca2b910)
+  ![Workflows](https://github.com/joynalbokhsho/joynalbokhsho.github.io/assets/45073703/7e82f7d4-900c-4cb9-83f9-bcaa1ca2b910)
 
 - **Base Value:** Open `gitprofile.config.ts`, and change `base`'s value.
 
@@ -58,7 +58,7 @@ These instructions will get you a copy of the project and deploy your portfolio 
   }
   ```
 
-- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/arifszn/gitprofile/actions) tab.
+- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/joynalbokhsho/joynalbokhsho.github.io/actions) tab.
 
 Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `gitprofile.config.ts` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
 
@@ -87,7 +87,7 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
   npm run dev
   ```
 
-- Finally, visit [`http://localhost:5173/gitprofile/`](http://localhost:5173/gitprofile/) from your browser.
+- Finally, visit [`http://localhost:5173/`](http://localhost:5173/) from your browser.
 
 ## 🎨 Customization
 
@@ -98,22 +98,22 @@ All the magic happens in the file `gitprofile.config.ts`. Open it and modify it 
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'joynalbokhsho', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 69, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -121,7 +121,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display.
       },
     },
     external: {
@@ -148,27 +148,27 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Joynal Bokhsho',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
+    linkedin: 'joynalbokhsho',
+    twitter: 'joynalbokhsho',
+    mastodon: '',
+    facebook: 'joynal.official',
+    instagram: 'jo_jo.503',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://joynalbokhsho.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mail@joynalbokhsho.com',
   },
   resume: {
     fileUrl:
@@ -230,8 +230,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -306,11 +306,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Assalamu Alaikum`,
 
   enablePWA: true,
 };
@@ -336,7 +332,7 @@ const CONFIG = {
 ```
 
 <p align="center">
-  <img src="https://github.com/arifszn/gitprofile/assets/45073703/91a2d9e6-67e5-47b4-9752-1881ac0f907f" alt="Theme Dropdown" width="50%">
+  <img src="https://github.com/joynalbokhsho/joynalbokhsho.github.io/assets/45073703/91a2d9e6-67e5-47b4-9752-1881ac0f907f" alt="Theme Dropdown" width="50%">
 </p>
 
 You can create your own custom theme by modifying these values. Theme `procyon` will have the custom styles.
@@ -411,7 +407,7 @@ const CONFIG = {
 
 GitProfile is PWA enabled. The site can be installed as a Progressive Web App. To turn it off, set `enablePWA` to `false`.
 
-![PWA](https://github.com/arifszn/gitprofile/assets/45073703/9dc7cc5c-4262-4445-a7a5-1e3566ef43fa)
+![PWA](https://github.com/joynalbokhsho/joynalbokhsho.github.io/assets/45073703/9dc7cc5c-4262-4445-a7a5-1e3566ef43fa)
 
 ### Avatar and Bio
 
@@ -426,12 +422,12 @@ You can link your social media services you're using, including LinkedIn, Twitte
 const CONFIG = {
   // ...
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '',
+    linkedin: 'joynalbokhsho',
+    twitter: 'joynalbokhsho',
+    mastodon: '',
+    facebook: 'joynal.official',
+    instagram: 'jo_jo.503',
+    youtube: 'joynalbokhsho',
     dribbble: '',
     behance: '',
     medium: '',
@@ -439,9 +435,9 @@ const CONFIG = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: '',
+    website: 'https://bdzonemc.com',
     phone: '',
-    email: '',
+    email: 'mail@joynalbokhsho.com',
   },
 };
 ```
@@ -563,7 +559,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display.
       },
     },
   },
@@ -622,7 +618,7 @@ const CONFIG = {
 };
 ```
 
-![Blog](https://github.com/arifszn/gitprofile/assets/45073703/410124f2-a3c2-48f1-8ec8-0c6fae74ae3d)
+![Blog](https://github.com/joynalbokhsho/joynalbokhsho.github.io/assets/45073703/410124f2-a3c2-48f1-8ec8-0c6fae74ae3d)
 
 The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
 
@@ -635,8 +631,8 @@ The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
 
 ## 💡 Contribute
 
-To contribute, see the [Contributing guide](https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md).
+To contribute, see the [Contributing guide](https://github.com/joynalbokhsho/joynalbokhsho.github.io/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
 
-[MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
+[MIT](https://github.com/joynalbokhsho/joynalbokhsho.github.io/blob/main/LICENSE)
