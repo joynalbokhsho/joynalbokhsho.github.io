@@ -11,7 +11,7 @@ import { hotjar } from 'react-hotjar';
 import colors from '../data/colors.json';
 // Paragraph component
 const Paragraph = ({ text }) => {
-  return <p>Hello Test</p>;
+  return <p>{text}</p>
 };
 export const isDarkishTheme = (appliedTheme: string): boolean => {
   return ['dark', 'halloween', 'forest', 'black', 'luxury', 'dracula'].includes(
@@ -32,6 +32,7 @@ export const getSanitizedConfig = (
 ): SanitizedConfig | Record<string, never> => {
   try {
     return {
+      <Paragraph text="Some introductory text before displaying Github Projects" />
       github: {
         username: config.github.username,
       },
