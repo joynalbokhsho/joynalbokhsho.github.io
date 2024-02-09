@@ -187,8 +187,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    source: 'dev', // medium | dev
+    username: 'jitendrachoudhary', // to hide blog section, keep it empty
     limit: 69, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
