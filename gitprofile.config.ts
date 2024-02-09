@@ -35,7 +35,9 @@ const CONFIG = {
         {
           title: 'BD ZONE',
           description:
-            'Bangladeshi Top Minecraft Server.',
+            'Bangladeshi Top Minecraft Server.
+            IP: play.bdzonemc.com (for Java)
+            IP: pe.bdzonemc.com | 19132 (for bedrock)',
           imageUrl:
             'https://media.discordapp.net/attachments/1142479651533508739/1188179713072574524/bdzonee.gif',
           link: 'https://bdzonemc.com/discord',
@@ -45,7 +47,7 @@ const CONFIG = {
           description:
             'BD ZONE Forum Website.',
           imageUrl:
-            'https://media.discordapp.net/attachments/860390018936602644/1188167308066181170/image.png',
+            'https://cdn.discordapp.com/attachments/1142479651533508739/1142479774934126672/logo.png',
           link: 'https://bdzonemc.com',
         },
         {
