@@ -112,22 +112,22 @@ const CONFIG = {
     fileUrl:
       'https://cdn.discordapp.com/attachments/860390018936602644/1105978407772246158/Joynal_Abedin_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+  //skills: [
+  //  'PHP',
+  //  'Laravel',
+  //  'JavaScript',
+  //  'React.js',
+  //  'Node.js',
+  //  'Nest.js',
+  //  'MySQL',
+  //  'PostgreSQL',
+  //  'Git',
+  //  'Docker',
+  //  'PHPUnit',
+  //  'CSS',
+  //  'Antd',
+  //  'Tailwind',
+  //],
   experiences: [
     {
       company: 'BD ZONE',
