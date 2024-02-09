@@ -172,18 +172,6 @@ const CONFIG = {
       from: '2013',
       to: '2019',
     },
-    {
-      institution: 'Sholabari Government Primary School',
-      degree: 'PSC',
-      from: '2012',
-      to: '-',
-    },
-    {
-      institution: 'Panishwar Kindergarten',
-      degree: '',
-      from: '',
-      to: '',
-    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
