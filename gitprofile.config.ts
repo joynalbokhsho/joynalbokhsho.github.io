@@ -149,14 +149,14 @@ const CONFIG = {
       companyLink: 'https://kamrultraders.com',
     },
   ],
-  certifications: [
-    {
-      name: '',
-      body: '',
-      year: '',
-      link: '',
-    },
-  ],
+  //certifications: [
+  //  {
+  //    name: '',
+  //    body: '',
+  //    year: '',
+  //    link: '',
+  //  },
+  //],
   educations: [
     {
       institution: 'Firoz Miah Government College',
