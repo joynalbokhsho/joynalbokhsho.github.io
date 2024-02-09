@@ -180,9 +180,9 @@ const CONFIG = {
     },
     {
       institution: 'Panishwar Kindergarten',
-      degree: '-',
-      from: '-',
-      to: '-',
+      degree: '',
+      from: '',
+      to: '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
