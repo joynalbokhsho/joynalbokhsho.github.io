@@ -1,4 +1,3 @@
-import React from 'react';
 import { LOCAL_STORAGE_KEY_NAME } from '../constants';
 import { DEFAULT_CUSTOM_THEME } from '../constants/default-custom-theme';
 import { DEFAULT_THEMES } from '../constants/default-themes';
@@ -9,10 +8,7 @@ import {
 } from '../interfaces/sanitized-config';
 import { hotjar } from 'react-hotjar';
 import colors from '../data/colors.json';
-// Paragraph component
-const Paragraph = ({ text }) => {
-  return <p>{text}</p>
-};
+
 export const isDarkishTheme = (appliedTheme: string): boolean => {
   return ['dark', 'halloween', 'forest', 'black', 'luxury', 'dracula'].includes(
     appliedTheme,
@@ -32,7 +28,6 @@ export const getSanitizedConfig = (
 ): SanitizedConfig | Record<string, never> => {
   try {
     return {
-      <Paragraph text="Some introductory text before displaying Github Projects" />
       github: {
         username: config.github.username,
       },
