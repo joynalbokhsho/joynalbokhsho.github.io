@@ -41,42 +41,74 @@ const CONFIG = {
           link: 'https://bdzonemc.com/discord',
         },
         {
-          title: 'Project Name',
+          title: 'BDZONEMC.COM',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'BD ZONE Forum Website.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://media.discordapp.net/attachments/860390018936602644/1188167308066181170/image.png',
+          link: 'https://bdzonemc.com',
+        },
+        {
+          title: 'IP Checker',
+          description:
+            'Find the geolocation of an IP address.',
+          imageUrl:
+            'https://cdn.discordapp.com/attachments/860390018936602644/1188169456967495680/image.png',
+          link: 'https://bdzonemc.com/ip',
+        },
+        {
+          title: 'MinecraftBD',
+          description:
+            'MinecraftBD Blog.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/860390018936602644/1188171027113586778/image.png',
+          link: 'https://minecraftbd.com',
+        },
+        {
+          title: 'BDZONE STORE',
+          description:
+            'BDZONE STORE APPLICATION.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/860390018936602644/1188174556242903170/image.png',
+          link: 'https://play.google.com/store/apps/details?id=com.bdzonemc.store',
+        },
+        {
+          title: 'BodyBloom: Weight Loss Aid',
+          description:
+            'Android Application.',
+          imageUrl:
+            'https://media.discordapp.net/attachments/860390018936602644/1191726389989224509/bodybloom.png',
+          link: 'https://play.google.com/store/apps/details?id=com.loseweightaidds.forwomen',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Joynal Bokhsho',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    linkedin: 'joynalbokhsho',
+    twitter: 'joynalbokhsho',
+    mastodon: '',
+    facebook: 'joynal.official',
+    instagram: 'jo_jo.503',
+    youtube: 'joynalbokhsho', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://joynalbokhsho.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mail@joynalbokhsho.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://cdn.discordapp.com/attachments/860390018936602644/1105978407772246158/Joynal_Abedin_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -96,47 +128,66 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'BD ZONE',
+      position: 'Owner',
+      from: 'April 2018',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://bdzonemc.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Ababhil',
+      position: 'Video Editor',
+      from: 'April 2022',
+      to: 'January 2023',
+      companyLink: '',
+    },
+    {
+      company: 'Kamrul Traders',
+      position: 'IT Manager',
+      from: 'June 2018',
+      to: 'January 2022',
+      companyLink: 'https://kamrultraders.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: '',
+      body: '',
+      year: '',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Firoz Miah Government College',
+      degree: 'Intermediate',
+      from: '2019',
+      to: '2021',
+    },
+    {
+      institution: 'Panishwar High School',
+      degree: 'JSC, SSC',
+      from: '2013',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Sholabari Government Primary School',
+      degree: 'PSC',
       from: '2012',
-      to: '2014',
+      to: '-',
+    },
+    {
+      institution: 'Panishwar Kindergarten',
+      degree: '-',
+      from: '-',
+      to: '-',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: 69, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -210,11 +261,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Assalamu Alaikum`,
 
   enablePWA: true,
 };
